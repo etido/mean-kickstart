@@ -1,0 +1,27 @@
+{
+    "db": "mongodb://localhost/mean-test",
+    "port": 3001,
+    "app": {
+        "name": "MEAN - A Modern Stack - Test"
+    },
+    "facebook": {
+        "clientID": "APP_ID",
+        "clientSecret": "APP_SECRET",
+        "callbackURL": "http://localhost:3000/auth/facebook/callback"
+    },
+    "twitter": {
+        "clientID": "CONSUMER_KEY",
+        "clientSecret": "CONSUMER_SECRET",
+        "callbackURL": "http://localhost:3000/auth/twitter/callback"
+    },
+    "github": {
+        "clientID": "APP_ID",
+        "clientSecret": "APP_SECRET",
+        "callbackURL": "http://localhost:3000/auth/github/callback"
+    },
+    "google": {
+        "clientID": "391643461631-44v28hmu83jedabphq2jjhk8brmgovjb.apps.googleusercontent.com",
+        "clientSecret": "IyX2E2Dui0WFWuwTUP19C08T",
+        "callbackURL": "http://localhost:3000/auth/google/callback"
+    }
+}
